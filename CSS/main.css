@@ -21,7 +21,7 @@ main {
     width: 80%;  
 }
 .redes-sociais ul li {
-    margin-left: 10px;
+    margin-left: 15px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -44,6 +44,12 @@ main {
     display: inline-block;
     color:violet;
     margin-left: 15px;
+}
+.menu ul li:hover {
+    border-bottom: 2px dashed rgb(248, 3, 97);
+}
+.menu ul li a:hover {
+    color: rgb(248, 3, 97);
 }
 .menu ul li a {
     color:violet;
