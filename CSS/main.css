@@ -152,8 +152,33 @@ li.slick-active button {
     color:rgb(231, 159, 231);
 }
 .col-3 {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.col-4 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 5px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.col-5 {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.col-6 {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 50px;
     width: 29%;
     float: left;
     position: relative;
