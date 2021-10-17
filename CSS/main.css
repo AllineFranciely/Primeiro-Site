@@ -187,8 +187,31 @@ li.slick-active button {
     margin-top: 3em;
 }
 h3 {
-    font-weight: normal|important;
+    font-weight: normal!important;
 }
 b {
     color:rgb(230, 104, 230);
+}
+.col-7 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-7 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-7 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
 }
