@@ -149,7 +149,7 @@ li.slick-active button {
 }
 .texto-destaque p {
     font-size: 15px;
-    color:rgb(231, 159, 231);
+    color:rgb(182, 121, 182);
 }
 .col-3 {
     text-align: center;
@@ -190,7 +190,7 @@ h3 {
     font-weight: normal!important;
 }
 b {
-    color:rgb(230, 104, 230);
+    color:rgb(173, 72, 173);
 }
 .col-7 {
     float: left;
@@ -198,10 +198,9 @@ b {
     text-align: center;
 }
 .col-7 img {
-cursor: pointer;
- margin: 0 auto;
- padding-top: 1em;
- vertical-align: middle;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
 }
 .col-7 img:hover {
     margin-top: 10px!important;
@@ -215,3 +214,22 @@ cursor: pointer;
 .bloco-logos img {
     margin-top: 50px;
 }
+.bloco-imagem {
+    height: 300px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.bloco-imagens-texto {
+    background-color:rgb(245, 236, 240)
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: black;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
