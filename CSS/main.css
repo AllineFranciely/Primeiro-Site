@@ -198,7 +198,7 @@ b {
     padding-bottom: 1px;
 }
 .bloco-imagens-texto {
-    background-color:rgb(245, 236, 240)
+    background-color:black;
 }
 .bloco-imagens-texto:before {
     width: 100%;
@@ -206,7 +206,6 @@ b {
     content: '';
     height: 52px;
     background: black;
-    background-image: url('../img/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -215,12 +214,13 @@ b {
     display: inline-block;
     content: '';
     height: 5px;
-    background:rgb(243, 221, 96);
+    background:rgb(0, 0, 0);
 }
 .col-4-logo {
     float: left;
     width: 25%;
     text-align: center;
+}
 }
 .col-4-logo img {
     margin: 0 auto;
